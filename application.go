@@ -16,7 +16,7 @@ var (
 	port, err = strconv.Atoi(os.Getenv("RDS_PORT")) //5432
 	user      = os.Getenv("RDS_USERNAME")           //postgres
 	password  = os.Getenv("RDS_PASSWORD")           //password
-	dbname    = os.Getenv("DB_NAME")                //go_backend_development
+	dbname    = os.Getenv("RDS_DB_NAME")            //go_backend_development
 )
 
 func main() {
