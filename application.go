@@ -27,7 +27,7 @@ func main() {
 		fmt.Printf("failed to execute query. Error: %s", err)
 	}
 	defer rows.Close()
-
+	//berkay
 	var usernames []string
 	for rows.Next() {
 		var username string
